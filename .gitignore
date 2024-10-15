@@ -40,25 +40,3 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-
-
-# project tree
-/.angular
-/.git
-/.vscode
-/dist
-/node_modules
-# project tree src 以外都移除
-/.editorconfig
-/angular.json
-/package-lock.json
-/package.json
-/public
-/README.md
-/assets
-/index.html
-/main.ts
-/styles.scss
-/tsconfig.app.json
-/tsconfig.json
-/tsconfig.spec.json
