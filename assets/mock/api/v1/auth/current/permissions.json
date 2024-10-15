@@ -1,0 +1,20 @@
+[
+  {
+    "name": "HOME",
+    "icon": "",
+    "path": "/home",
+    "selected": false
+  },
+  {
+    "name": "HOME2",
+    "icon": "",
+    "path": "/home2",
+    "selected": false
+  },
+  {
+    "name": "HOME3",
+    "icon": "",
+    "path": "/home3",
+    "selected": false
+  }
+]
