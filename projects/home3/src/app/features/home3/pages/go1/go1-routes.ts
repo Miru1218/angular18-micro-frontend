@@ -5,10 +5,5 @@ export const routes: Routes = [
   {
     path: 'go1',
     component: Go1Component,
-  },
-  {
-    path: '',
-    redirectTo: 'home3',
-    pathMatch: 'full',
-  },
+  }
 ];

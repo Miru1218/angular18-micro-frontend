@@ -31,6 +31,9 @@
       "@@home3": [
         "./dist/home3-lib"
       ],
+      "@@home4": [
+        "./dist/home4-lib"
+      ],
       "@@shared": [
         "./dist/shared"
       ]

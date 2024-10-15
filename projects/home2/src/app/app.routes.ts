@@ -3,6 +3,6 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
     {
         path: '',
-        loadChildren: () => import('./features/home2-routes').then((m) => m.routes),
+        loadChildren: () => import('./features/app-routes').then((m) => m.routes),
     }
 ];

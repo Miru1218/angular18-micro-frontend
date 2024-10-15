@@ -1,14 +1,14 @@
 import { Routes } from '@angular/router';
-import { Go2Component } from './pages/go2.component';
+import { Go1Component } from './pages/go1.component';
 
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'go2',
+    redirectTo: 'go1',
     pathMatch: 'full',
   },
   {
-    path: 'go2',
-    component: Go2Component,
+    path: 'go1',
+    component: Go1Component,
   }
 ];

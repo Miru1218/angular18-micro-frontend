@@ -24,6 +24,10 @@ export const routes: Routes = [
         path: 'home3',
         loadChildren: () => import('@@home3').then((m) => m.routes),
       },
+      {
+        path: 'home4',
+        loadChildren: () => import('@@home4').then((m) => m.routes),
+      },
     ],
   },
   {
