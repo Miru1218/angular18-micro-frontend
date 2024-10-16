@@ -6,11 +6,6 @@ import { Go2Component } from './home3/pages/go2/pages/go2.component';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home3',
-    pathMatch: 'full',
-  },
-  {
-    path: 'home3',
     component: Home3Component,
   },
   {
@@ -20,5 +15,10 @@ export const routes: Routes = [
   {
     path: 'go2',
     component: Go2Component,
-  }
+  },
+  {
+    path: '**',
+    redirectTo: 'home3',
+    pathMatch: 'full',
+  },
 ];

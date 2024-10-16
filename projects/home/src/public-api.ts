@@ -1,1 +1,1 @@
-export * from './app/features/home/home-routes';
+export * from './app/features/home-routes';

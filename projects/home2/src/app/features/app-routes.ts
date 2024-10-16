@@ -9,16 +9,16 @@ export const routes: Routes = [
     component: Home2Component,
   },
   {
-    path: '',
-    redirectTo: 'home2',
-    pathMatch: 'full',
-  },
-  {
     path: 'go1',
     component: Go1Component,
   },
   {
     path: 'go2',
     component: Go2Component,
-  }
+  },
+  {
+    path: '**',
+    redirectTo: 'home2',
+    pathMatch: 'full',
+  },
 ];
