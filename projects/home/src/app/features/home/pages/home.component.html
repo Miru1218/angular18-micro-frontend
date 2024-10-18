@@ -1,2 +1,12 @@
 <p>home works!</p>
 <p-button routerLink="/home2">to home2</p-button>
+
+<div *ngIf="data; else loading">
+  <div *ngFor="let item of data">
+    <p>{{ item.name }}</p>
+    <p>{{ item.description }}</p>
+  </div>
+</div>
+<ng-template #loading>
+  <p>Loading data...</p>
+</ng-template>
